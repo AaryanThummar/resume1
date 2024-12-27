@@ -1,0 +1,103 @@
+.gradient-background {
+    background: linear-gradient(300deg, #599fa7, #006A67 , #4B5945);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL+Guides&family=Playwrite+PT+Guides&display=swap');
+
+
+/*Navbar*/ 
+
+#nav{
+  
+  width: 100%;
+  background-color: #D6EFD8;
+  color: #C96868;
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; /* Full width */
+}
+
+.collapse a{
+  color: #04535f;
+}
+
+.collapse a:hover{
+  background-color: #c3dfc5;
+  color: #5c8787;
+  border: 2px solid #C96868;
+  border-radius: 8px 8px;
+  font-weight:bold;
+  
+}
+
+
+
+/*profile*/
+
+#profile{
+  color: #FFF4B7;
+}
+#profile img{
+  background-color: #64C0F4;
+  border: 5px solid #FFF4B7;
+  border-radius: 50%;
+  
+}
+.pftext{
+  font-family: "Playwrite ", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  line-height: 2;
+  
+}
+.main{
+  margin-top: 55px;
+}
+
+
+
+/* footer */
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 25%;
+  margin-left: auto;
+  margin-right: auto; 
+  color: #FFF4B7;
+}
+
+ .footertab{
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+} 
+
+.social-icon{
+  color: #FFF4B7;
+} 
+.social-icon:hover{
+  color: #C96868;
+}
+
+
+
+
